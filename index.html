@@ -22,10 +22,11 @@
             <nav class="navbar"> <!-- Navegación  -->
                 <ul>
                     <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li> 
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="acceder.html">Iniciar Sesión</a></li>
+                    <li><a href="#">Reseñas</a></li> 
+                    <li><a href="#">Fotos</a></li> 
+                    <li><a href="#">Contactanos</a></li>
+                    <li><a href="registro.html">Registrarse</a></li>
+                    <li><a href="inicio_sesion.html">Iniciar Sesión</a></li>
                 </ul>
             </nav>
 
@@ -48,6 +49,9 @@
 
     </header>
 
+    <div class="general-title">
+        <h2>Nuestros Servicios</h2>
+    </div>
 
     <section class="general container">
 
@@ -56,10 +60,11 @@
             <div class="general-card">
 
                 <img src="Logo.png"/>
-                <h3>Lorem</h3>
+                <h3>SESIÓN FOTOGRÁFICA</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Et quis ipsa explicabo suscipit voluptatem illo assumenda 
+                    Ofrecemos sesiones fotográficas personalizadas para cualquier ocasión. 
+                    Nuestro equipo captura momentos especiales con profesionalismo y creatividad,
+                    adaptándonos a tus necesidades para crear recuerdos
                 </p>
 
             </div>
@@ -67,21 +72,23 @@
             <div class="general-card">
 
                 <img src="Logo.png"/>
-                <h3>Lorem</h3>
+                <h3>EDICIÓN</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Et quis ipsa explicabo suscipit voluptatem illo assumenda 
+                    Nos especializamos en la edición tanto de fotos como de videos. 
+                    Transformamos tus imágenes y clips, aportando creatividad y perfección para lograr 
+                    resultados visualmente impresionantes.
                 </p>
 
             </div>
 
             <div class="general-card">
 
-                <img src="Logo.png"/>
-                <h3>Lorem</h3>
+                <img src="Uno.jpeg"/>
+                <h3>IMPRESIÓN</h3>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Et quis ipsa explicabo suscipit voluptatem illo assumenda 
+                    Nos encargamos de plasmar tus recuerdos en formato físico. 
+                    Imprimimos tus fotos con la más alta calidad para que las puedas 
+                    disfrutar, proporcionando una experiencia tangible y duradera.
                 </p>
 
             </div>
@@ -93,12 +100,12 @@
     <section class="general container">
 
         <div class="general-2">
-            <h2>Sobre Nosotros</h2>
+            <h2>¿Quiénes Somos?</h2>
             <p> 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, 
-                ducimus qui labore consequuntur natus totam odio itaque quod mollitia, 
-                sequi pariatur commodi voluptate cupiditate beatae sapiente molestias! 
-                Dolore, harum corrupti.
+                Destiny Lens es una empresa que captura momentos inolvidables a 
+                través de la fotografía. Nos especializamos en transformar momentos 
+                cotidianos en recuerdos memorables. Con Destiny Lens, cada imagen cuenta 
+                tu historia de una manera única y significativa.
             </p>
            
 
@@ -157,6 +164,29 @@
         </div>
 
     </main>
+    
+    <div class="review-container">
+        <h2>Reseñas de Clientes</h2>
+    
+        <!-- Contenedor para mostrar reseñas -->
+        <div id="reviews">
+            <!-- Las reseñas se agregarán aquí dinámicamente con JavaScript -->
+        </div>
+    
+        <!-- Formulario para agregar una nueva reseña -->
+        <h3>Deja tu reseña</h3>
+        <form id="reviewForm">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+    
+            <label for="resena">Reseña:</label>
+            <textarea id="resena" required></textarea>
+    
+            <button type="button" onclick="agregarResena()">Enviar Reseña</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
 
 
     <footer class="footer container">
@@ -179,6 +209,7 @@
 
 
     </footer>
+
     
 
 </body>
