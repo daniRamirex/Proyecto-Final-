@@ -1,0 +1,48 @@
+/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
+body, h2, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilo del encabezado */
+h2 {
+    color: #0066cc;
+}
+
+/* Estilo del contenedor de información del usuario */
+#usuarioInfo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo del botón de cerrar sesión */
+button {
+    background-color: #ff3333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Estilo para centrar el botón */
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
