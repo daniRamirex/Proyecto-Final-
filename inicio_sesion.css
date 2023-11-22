@@ -6,8 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #000;
-    color: #fff;
+    background-color: #f2f2f2;
 }
 
 h2 {
@@ -18,10 +17,10 @@ h2 {
     max-width: 400px;
     margin: 20px;
     padding: 20px;
-    background-color: #333;
-    border: 1px solid #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
@@ -37,7 +36,7 @@ input {
 }
 
 button {
-    background-color: #007bff;
+    background-color: #4caf50;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -47,5 +46,5 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
