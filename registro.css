@@ -31,6 +31,7 @@ select {
     box-sizing: border-box;
 }
 
+/* Estilo del boton */
 button {
     background-color: #4caf50;
     color: white;
@@ -39,6 +40,7 @@ button {
     border-radius: 4px;
     cursor: pointer;
 }
+
 
 /* Estilos responsivos para dispositivos móviles */
 @media only screen and (max-width: 480px) {
@@ -53,13 +55,5 @@ button {
 
     button {
         padding: 8px;
-    }
-}
-
-
-/* Estilos específicos para dispositivos móviles */
-@media only screen and (max-width: 480px) {
-    #registroForm {
-        padding: 10px;
     }
 }

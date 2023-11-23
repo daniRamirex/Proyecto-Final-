@@ -17,7 +17,7 @@ function validarYGuardarRegistro() {
     }
 }
 
-// Función que guarda el registro (aquí iría tu lógica de registro)
+// Función que guarda el registro
 function guardarRegistro() {
     console.log("Registro exitoso!");
 }
