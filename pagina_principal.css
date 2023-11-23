@@ -1,5 +1,5 @@
-/* Reset de estilos para eliminar márgenes y rellenos predeterminados */
-body, h2, button {
+/* Eliminar estilos predeterminados */
+* {
     margin: 0;
     padding: 0;
 }
@@ -15,10 +15,10 @@ body {
 
 /* Estilo del encabezado */
 h2 {
-    color: #0066cc;
+    color:  rgb(151, 12, 215);
 }
 
-/* Estilo del contenedor de información del usuario */
+/* Estilo del contenedor información usuario */
 #usuarioInfo {
     background-color: #fff;
     border: 1px solid #ddd;
@@ -31,7 +31,7 @@ h2 {
 
 /* Estilo del botón de cerrar sesión */
 button {
-    background-color: #ff3333;
+    background-color: #45a049;
     color: #fff;
     padding: 10px 20px;
     font-size: 16px;
