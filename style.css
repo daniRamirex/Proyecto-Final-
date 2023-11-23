@@ -35,20 +35,20 @@ body {
     position: fixed;
 }
 
-.logo {
+.nombre {
     font-weight: 800;
     font-size: 25px;
-    color: #fc697a;
+    color: rgb(151, 12, 215);
     text-transform: uppercase;
 }
 
-.menu .navbar ul li {
+.navbar ul li {
     position: relative;
     float: left;
     margin-right: 10px;
 }
 
-.menu .navbar ul li a {
+.navbar ul li a {
     font-size: 17px;
     font-weight: 600;
     padding: 20px;
@@ -57,21 +57,9 @@ body {
     text-transform: uppercase;
 }
 
-.menu .navbar ul li a:hover {
-    color: #121140;    
-}
-
-#menu {
-    display: none;
-}
-
-.menu-icono {
-    width: 25px;
-}
-
-.menu label {
-    cursor: pointer;
-    display: none;
+/* Cambiado el color al pasar el cursor en la barra de navegación */
+.navbar ul li a:hover {
+    color: rgb(151, 12, 215); 
 }
 
 .centro-contenedor {
@@ -85,7 +73,7 @@ body {
     margin-top: 100px;
     display: flex;
     padding: 50px;
-    background-color: #F5F9FC;
+    background-color: #f0eded;
     border-radius: 25px;
 }
 
@@ -95,14 +83,14 @@ body {
 
 .header-txt h1 {
     font-size: 50px;
-    color: #656875;
+    color: rgb(151, 12, 215);
     margin-bottom: 35px;
     text-align: center;
 }
 
 .header-txt p {
     font-size: 35px;
-    color: #656875;
+    color: #000000;
     margin-bottom: 35px;
     text-align: center;
 }
@@ -124,6 +112,7 @@ body {
 .general-title{
     display: flex;
     justify-content: center;
+    margin-bottom: 0.1cm;
 }
 
 .general-1 {
@@ -131,6 +120,11 @@ body {
     display: flex; 
     flex-direction: row;
 }
+
+.general container {
+    margin-bottom: 0.1cm;
+}
+
 
 .general-card {
     padding: 90px;
@@ -192,40 +186,13 @@ h2 {
     background-size: cover;
 }
 
-.information {
-    padding: 100px 0;
-    background-color: #F5F9FC;
-    text-align: center;
-}
-
-.information-content {
-    margin-top: 70px;
-    display: flex;
-}
-
-.information-1 {
-    margin: 0 25px;
-}
-
-.information-1 h3 {
-    text-transform: capitalize;
-    font-size: 25px;
-    color: #121140;
-    margin-bottom: 15px;
-}
-
-.information-1 p {
-    font-size: 16px;
-    color: #656875;
-    margin-bottom: 35px;
-}
-
 .footer {
     padding: 50px 0;
     background-color: #ffffff;
     display: flex;
     justify-content: space-between;
     justify-content: center;
+    align-items: center;
 }
 
 .footer-social {
@@ -249,7 +216,7 @@ body {
 
 .review-container {
     max-width: 600px;
-    margin: auto;
+    margin: 50px auto;
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
