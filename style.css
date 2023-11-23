@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
 
+/* Eliminar estilos predeterminados */
 * {
     margin: 10;
     padding: 0;
@@ -8,10 +9,12 @@
     list-style: none;
 }
 
+/* Estilo del cuerpo de la página */
 body {
     font-family: 'Poppins', sans-serif;
 }
 
+/* Encabezado */
 .header {
     display: flex;
     align-items: center;
@@ -69,6 +72,7 @@ body {
     justify-content: center;
 }
 
+/* Slogan y logo */
 .header-content {
     margin-top: 100px;
     display: flex;
@@ -104,6 +108,8 @@ body {
     width: 350px;
 }
 
+/* Nuestros servicios */
+
 .general {
     padding: 100px;
     display: flex;
@@ -120,11 +126,6 @@ body {
     display: flex; 
     flex-direction: row;
 }
-
-.general container {
-    margin-bottom: 0.1cm;
-}
-
 
 .general-card {
     padding: 90px;
@@ -186,34 +187,9 @@ h2 {
     background-size: cover;
 }
 
-.footer {
-    padding: 50px 0;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    justify-content: center;
-    align-items: center;
-}
 
-.footer-social {
-    display: flex;
-    justify-content: space-around;
-    
-}
 
-.footer-social img {
-    width: 40px;
-    justify-content: space-between;
-    margin-right: 50px;
-   
-}
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    background-color: #f4f4f4;
-}
-
+/* Estilo de la reseña */
 .review-container {
     max-width: 600px;
     margin: 50px auto;
@@ -261,3 +237,27 @@ button:hover {
     background-color: #45a049;
 }
 
+
+
+/* Redes sociales */
+.footer {
+    padding: 50px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-social img {
+    width: 40px;
+    justify-content: space-between;
+    margin-right: 50px;
+   
+}
