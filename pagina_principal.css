@@ -55,6 +55,14 @@ button {
     }
 
     #usuarioInfo {
-        max-width: 100%; /* Hacer que el contenedor sea del 100% del ancho de la pantalla */
+        max-width: 100%; /* Hacer que el contenedor sea del 100% de la pantalla */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Ajusta el tamaño de la fuente del encabezado en pantallas pequeñas */
+    }
+
+    button {
+        font-size: 0.8em; /* Ajusta el tamaño de la fuente del botón en pantallas pequeñas */
     }
 }
