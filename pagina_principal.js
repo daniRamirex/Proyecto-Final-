@@ -5,10 +5,8 @@ document.addEventListener('DOMContentLoaded', function () {
     if (usuarioActual) {
         // Mostrar el nombre del usuario en la página
         document.getElementById('usuarioInfo').innerText = 'Hola, ' + usuarioActual.nombres + ' ' + usuarioActual.apellidos;
-    } else {
-        // Redirigir a la página de inicio de sesión si no hay usuario actual
-        window.location.href = 'inicio_sesion.html';
-    }
+    } 
+    
 });
 
 function cerrarSesion() {
