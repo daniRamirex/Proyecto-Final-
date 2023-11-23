@@ -46,3 +46,15 @@ button {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+/* Estilos responsivos para dispositivos móviles */
+@media only screen and (max-width: 480px) {
+    body {
+        padding: 10px; /* Ajustar el relleno del cuerpo para pantallas más pequeñas */
+    }
+
+    #usuarioInfo {
+        max-width: 100%; /* Hacer que el contenedor sea del 100% del ancho de la pantalla */
+    }
+}
