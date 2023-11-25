@@ -1,26 +1,27 @@
-/* Estilos generales de la página */
 body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
 h2 {
     text-align: center;
+    color: #333;
 }
 
-/* Estilos del formulario */
 #registroForm {
     max-width: 400px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
+    background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: block;
     margin-bottom: 8px;
+    color: #333;
 }
 
 input,
@@ -31,29 +32,21 @@ select {
     box-sizing: border-box;
 }
 
-/* Estilo del boton */
 button {
-    background-color: #4caf50;
-    color: white;
-    padding: 10px;
+    background-color: rgb(151, 12, 215);
+    color: #fff;
+    padding: 10px 15px;
     border: none;
-    border-radius: 4px;
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #45a049;
+}
 
-/* Estilos responsivos para dispositivos móviles */
-@media only screen and (max-width: 480px) {
-    #registroForm {
-        padding: 10px;
-    }
-
-    input,
-    select {
-        margin-bottom: 10px;
-    }
-
-    button {
-        padding: 8px;
-    }
+/* Estilo adicional para el mensaje de éxito */
+#registroExitoso {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
 }

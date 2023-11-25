@@ -1,23 +1,24 @@
-// Función que valida y guarda el registro
-function validarYGuardarRegistro() {
-    // Obtenemos los valores de los campos
-    var nombres = document.getElementById("nombres").value;
-    var apellidos = document.getElementById("apellidos").value;
-    var email = document.getElementById("email").value;
-    var password = document.getElementById("password").value;
-    var genero = document.getElementById("genero").value;
-
-    // Verificamos si algún campo está vacío
-    if (nombres === "" || apellidos === "" || email === "" || password === "" || genero === "") {
-        // Si hay campos vacíos, mostramos un mensaje de alerta
-        alert("Por favor, complete todos los campos.");
-    } else {
-        // Si todos los campos están llenos, llamamos a la función para guardar el registro
-        guardarRegistro();
-    }
-}
-
-// Función que guarda el registro
 function guardarRegistro() {
-    console.log("Registro exitoso!");
+    var nombres = document.getElementById('nombres').value;
+    var apellidos = document.getElementById('apellidos').value;
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    var genero = document.getElementById('genero').value;
+
+    var usuario = {
+        nombres: nombres,
+        apellidos: apellidos,
+        email: email,
+        password: password,
+        genero: genero
+    };
+
+    var usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
+    usuarios.push(usuario);
+    localStorage.setItem('usuarios', JSON.stringify(usuarios));
+
+    document.getElementById('registroForm').reset();
+
+    // Redirigir a la página de inicio de sesión
+    window.location.href = 'inicio_sesion.html';
 }
