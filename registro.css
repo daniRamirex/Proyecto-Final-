@@ -41,12 +41,6 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: rgb(215, 12, 177);
 }
 
-/* Estilo adicional para el mensaje de éxito */
-#registroExitoso {
-    color: green;
-    text-align: center;
-    margin-top: 10px;
-}

@@ -1,68 +1,38 @@
-/* Eliminar estilos predeterminados */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* Estilo del cuerpo de la página */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    height: 100vh;
+    width: 100%;
+    background: #fff; /* Change background color to white */
+    color: #000; /* Change text color to black */
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    padding: 20px;
+    margin: 0;
 }
-
-/* Estilo del encabezado */
 h2 {
-    color:  rgb(151, 12, 215);
+    font-size: 36px;
+    margin-bottom: 20px;
 }
 
-/* Estilo del contenedor información usuario */
 #usuarioInfo {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-top: 20px;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-/* Estilo del botón de cerrar sesión */
 button {
-    background-color: #45a049;
+    background: rgb(151, 12, 215);
     color: #fff;
+    border: none;
     padding: 10px 20px;
     font-size: 16px;
-    border: none;
     cursor: pointer;
-    margin-top: 10px;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.4);
 }
 
-/* Estilo para centrar el botón */
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-/* Estilos responsivos para dispositivos móviles */
-@media only screen and (max-width: 480px) {
-    body {
-        padding: 10px; /* Ajustar el relleno del cuerpo para pantallas más pequeñas */
-    }
-
-    #usuarioInfo {
-        max-width: 100%; /* Hacer que el contenedor sea del 100% de la pantalla */
-    }
-
-    h2 {
-        font-size: 1.2em; /* Ajusta el tamaño de la fuente del encabezado en pantallas pequeñas */
-    }
-
-    button {
-        font-size: 0.8em; /* Ajusta el tamaño de la fuente del botón en pantallas pequeñas */
-    }
+button:hover {
+    background: rgb(215, 12, 177);
 }
